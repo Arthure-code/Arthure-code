@@ -32,6 +32,9 @@ J'aime construire des solutions **utiles, sécurisées et bien architecturées**
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/ArthureLekoubouDjune-8715/DE0369446386FD76?sharingId=8CB681DDB7D6D21B">
     <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="SC-900 Security Compliance Identity Fundamentals" width="110"/>
   </a>
+  <a href="https://badgr.com/public/assertions/w9MS5SSNRHuzSyO49RwF9Q">
+    <img src="https://api.badgr.io/public/assertions/w9MS5SSNRHuzSyO49RwF9Q/image" alt="Postman API Fundamentals Student Expert" width="110"/>
+  </a>
 </p>
 
 | Certification | Vérification |
@@ -39,7 +42,7 @@ J'aime construire des solutions **utiles, sécurisées et bien architecturées**
 | **Microsoft Certified: Azure Fundamentals (AZ-900)** | [Vérifier ✔](https://learn.microsoft.com/api/credentials/share/en-us/ArthureLekoubouDjune-8715/D964FAAB05A10DC1?sharingId=8CB681DDB7D6D21B) |
 | **Microsoft Certified: Azure Data Fundamentals (DP-900)** | [Vérifier ✔](https://learn.microsoft.com/api/credentials/share/en-us/ArthureLekoubouDjune-8715/E4AC4A613D4580CE?sharingId=8CB681DDB7D6D21B) |
 | **Microsoft Certified: Security, Compliance & Identity Fundamentals (SC-900)** | [Vérifier ✔](https://learn.microsoft.com/api/credentials/share/en-us/ArthureLekoubouDjune-8715/DE0369446386FD76?sharingId=8CB681DDB7D6D21B) |
-| **Postman API Fundamentals Student Expert** | 2025 |
+| **Postman API Fundamentals Student Expert** | [Vérifier ✔](https://badgr.com/public/assertions/w9MS5SSNRHuzSyO49RwF9Q) |
 
 ---
 
