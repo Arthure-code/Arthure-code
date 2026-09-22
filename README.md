@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/arthure-lekoubou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:arthure.dev.apps@gmail.com"><img src="https://img.shields.io/badge/Courriel-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Courriel"/></a>
+  <a href="https://mail.google.com/mail/?view=cm&to=arthure.dev.apps@gmail.com"><img src="https://img.shields.io/badge/Courriel-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Courriel"/></a>
 </p>
 
 Je construis des applications complètes : la base de données, l'API, l'interface, le mobile quand il en faut, et la chaîne qui les livre. Chaque projet ci-dessous se clone, se lance, a ses tests et sa porte de qualité.
