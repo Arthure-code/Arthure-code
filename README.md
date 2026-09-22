@@ -1,24 +1,68 @@
-<h1 align="center">👋 Salut, moi c'est Arthure Lekoubou Djune</h1>
+<h1 align="center">Arthure Lekoubou Djune</h1>
+
+<p align="center"><b>Développeur Web full-stack</b></p>
 
 <p align="center">
-Développeur .NET et Angular • Applications web et mobiles sécurisées, testées et analysées à chaque livraison
+  <a href="https://www.linkedin.com/in/arthure-lekoubou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:arthure.dev.apps@gmail.com"><img src="https://img.shields.io/badge/Courriel-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Courriel"/></a>
 </p>
+
+Je construis des applications complètes : la base de données, l'API, l'interface, le mobile quand il en faut, et la chaîne qui les livre. Chaque projet ci-dessous se clone, se lance, a ses tests et sa porte de qualité.
 
 ---
 
-## 🧑‍💻 À propos de moi
+## 🚀 Projets vedettes
 
-Je suis un développeur basé au **Québec**. Je construis des applications complètes, de l'API à l'interface, et je les livre avec ce qui permet de leur faire confiance : des tests, une analyse de qualité et de sécurité à chaque changement, une porte de qualité qui doit rester verte.
+### [escale-marketplace](https://github.com/Arthure-code/escale-marketplace)
+**Une place de marché où chambres et voitures se réservent côte à côte.**
+- Recherche par dates sur des flottes d'unités : ce qui reste disponible est recalculé à chaque changement de dates.
+- Trois types de comptes, abonnement du loueur, tableau de bord, mise hors ligne d'une annonce sans rien supprimer.
+- Panier persisté, paiement simulé avec acceptation ou refus, favoris qui expirent, authentification à deux facteurs.
+- 267 tests, la plupart en pilotant le site complet.
 
-Ce que je fais le plus :
+### [home-market](https://github.com/Arthure-code/home-market)
+**Une boutique en ligne : catalogue, panier, commande, ventes, messagerie.**
+- Le panier et les totaux vivent côté serveur ; le paiement passe par une interface de passerelle prête pour un vrai fournisseur.
+- Chaque route agit seulement sur ce qui appartient au compte du jeton ; les photos sont acceptées d'après leurs octets, jamais d'après leur nom.
+- 138 tests côté API, 104 côté interface.
 
-- des **API et applications ASP.NET Core 8** (Web API, Razor Pages, MVC) sur Entity Framework Core, avec authentification, jetons, limiteur de débit, en-têtes de sécurité et permissions par ressource
-- des interfaces **Angular 21** et **Vue 3**, testées composant par composant
-- du **mobile et du bureau** avec .NET MAUI et Tauri, y compris hors ligne
-- des **pipelines GitHub Actions et Azure DevOps** avec SonarCloud : la plupart des projets vitrines ci-dessous affichent leur porte de qualité et leur couverture en tête de leur README
-- la **sécurité applicative** selon l'OWASP, du hachage des mots de passe jusqu'au refus des données d'autrui
+### [mystery-avatar](https://github.com/Arthure-code/mystery-avatar)
+**Un « Qui est-ce ? » : vingt-huit personnages, un tiré en secret, à trouver par ses traits.**
+- Filtres par chapeau, barbe, lunettes, couleur des yeux et moustache ; la sélection se rétrécit à chaque choix.
+- Une seule page, sans dépendance ; base d'un jeu mobile à venir.
 
-Certifié Microsoft Azure (AZ-900, DP-900, SC-900).
+### [equipment-rental](https://github.com/Arthure-code/equipment-rental)
+**Un comptoir de location d'équipement lourd.**
+- L'API calcule la disponibilité à partir des locations et refuse les doubles réservations.
+- Catalogue avec photos, tarifs par durée, location et annulation en un clic.
+
+### [LKBConvertor](https://github.com/Arthure-code/LKBConvertor)
+**Une application Android qui convertit, ouvre et partage des documents, entièrement hors ligne.**
+- Huit conversions dans les deux sens entre Word, PDF, RTF, Excel, PowerPoint et image.
+- Une visionneuse intégrée qui ouvre onze formats, un historique persistant, le partage vers toute application du téléphone.
+- Livrée par un pipeline en quatre étapes : compilation et analyse, signature, piste interne Google Play, promotion en bêta puis en production avec déploiement progressif.
+
+### [tandem-notes](https://github.com/Arthure-code/tandem-notes)
+**Une page web devenue application de bureau et Android, avec Tauri.**
+- L'interface est du HTML, du CSS et du JavaScript ordinaires ; le même code est empaqueté en application native pour Windows et pour Android.
+- Elle fonctionne sans serveur : les changements sont mis en file sur l'appareil et rejoués dans l'ordre quand l'API répond.
+- Politique de sécurité du contenu dans la fenêtre native, rien n'est écrit dans la page comme HTML.
+
+### [quebec-forecast](https://github.com/Arthure-code/quebec-forecast)
+**La météo d'une ville en direct : maintenant, la semaine, n'importe quel mois, les moyennes.**
+- Données mesurées pour le passé, prévisions pour les seize prochains jours, tout depuis une API publique.
+
+### [factorytrack](https://github.com/Arthure-code/factorytrack)
+**Localisation d'équipements en temps réel dans une usine.**
+- Passerelles simulées qui produisent les mesures d'une vraie radio, pipeline de traitement, diffusion en direct, alertes de zone interdite, application mobile.
+
+---
+
+## 🎯 Ce que je vise
+
+- **La sécurité intégrée dès la conception** : mots de passe hachés, jetons signés, permissions par ressource, limiteur de débit, en-têtes de sécurité, entrées validées.
+- **Un comportement prouvé** : des tests à chaque couche, une porte de qualité qui doit rester verte avant de fusionner.
+- **Des dépôts qu'on peut lire** : un README avec captures, une licence, une demande de tirage par changement.
 
 ---
 
@@ -104,55 +148,6 @@ Certifié Microsoft Azure (AZ-900, DP-900, SC-900).
 - Agile, Scrum, Kanban
 - Revue de code, tests unitaires et fonctionnels
 - Jira, Octopus
-
----
-
-## 🚀 Projets vitrines
-
-Chaque dépôt a son README avec captures, sa licence MIT, ses tests et, pour ceux analysés par SonarCloud, ses badges en tête.
-
-### 🔹 [escale-marketplace](https://github.com/Arthure-code/escale-marketplace)
-Place de marché de location où chambres et voitures se réservent côte à côte : recherche par dates sur des flottes d'unités, trois types de comptes, tableau de bord du loueur, panier persisté, paiement simulé, favoris qui expirent.
-**Stack** : ASP.NET Core 8 Razor Pages, EF Core, SQLite, Identity avec 2FA • 267 tests xUnit • SonarCloud : porte verte, couverture 85 %
-
-### 🔹 [home-market](https://github.com/Arthure-code/home-market)
-Boutique en ligne complète : catalogue par catégories, recherche, panier côté serveur, paiement par carte derrière une interface de passerelle, commandes, ventes, messagerie entre membres, photos vérifiées par leurs octets.
-**Stack** : ASP.NET Core 8 Web API, EF Core, SQLite, JWT, Angular 21 • 138 tests xUnit, 104 tests Vitest • SonarCloud : porte verte, couverture 97 %
-
-### 🔹 [memo-board](https://github.com/Arthure-code/memo-board)
-Mémos privés derrière une connexion : mots de passe hachés, une seule réponse à tout échec de connexion, tentatives limitées, jeton signé par session, chaque route n'agit que sur les mémos de son propriétaire.
-**Stack** : ASP.NET Core 8 en trois couches, Angular 21 • SonarCloud : porte verte, couverture 93 %
-
-### 🔹 [equipment-rental](https://github.com/Arthure-code/equipment-rental)
-Comptoir de location d'équipement lourd : l'API calcule la disponibilité à partir des locations et refuse les doubles réservations ; le catalogue Angular loue en un clic.
-**Stack** : ASP.NET Core 8, Angular 21 • SonarCloud : porte verte, couverture 93 %
-
-### 🔹 [tandem-notes](https://github.com/Arthure-code/tandem-notes)
-Notes qui continuent de fonctionner sans serveur : l'application bureau et Android écrit localement d'abord, met en file les changements et les rejoue dans l'ordre quand l'API répond.
-**Stack** : Tauri 2, ASP.NET Core 8 Web API
-
-### 🔹 [factorytrack](https://github.com/Arthure-code/factorytrack)
-Localisation d'équipements en temps réel dans une usine : passerelles simulées, pipeline de traitement, diffusion en direct, application mobile.
-**Stack** : .NET 9, ASP.NET Core, gRPC, SignalR, PostgreSQL et TimescaleDB, .NET MAUI, Docker • SonarCloud : porte verte, couverture 96 %
-
-### 🔹 [LKBConvertor](https://github.com/Arthure-code/LKBConvertor)
-Application Android de conversion documentaire : 8 conversions bidirectionnelles (Word, PDF, RTF, Excel, PowerPoint, image), visionneuse intégrée, historique persistant.
-**Stack** : .NET 9 MAUI, Syncfusion, UraniumUI Material 3, SQLite • GitHub Actions, Azure DevOps • SonarCloud : porte verte
-
-### 🔹 [quebec-forecast](https://github.com/Arthure-code/quebec-forecast)
-La météo de Québec en direct : maintenant, la semaine, n'importe quel mois en tableau, les moyennes mensuelles.
-**Stack** : Angular 21 avec signaux, sans zone.js, Vitest, API Open-Meteo
-
-### 🔹 [grade-manager](https://github.com/Arthure-code/grade-manager)
-Le même relevé de notes calculé de trois façons (tableaux statiques, dictionnaires, objets du domaine), trois implémentations interchangeables derrière une interface.
-**Stack** : ASP.NET Core 8 MVC en couches Domain, Application, Infrastructure, Web • tests de contrôleurs avec Moq
-
-### Et plus petits, avec la même rigueur
-
-- **Vue 3** : [spoke-and-wheel](https://github.com/Arthure-code/spoke-and-wheel) et [spoke-and-wheel-storefront](https://github.com/Arthure-code/spoke-and-wheel-storefront) (catalogue de vélos, props et événements, puis Vue Router), [grocery-checklist](https://github.com/Arthure-code/grocery-checklist) (liste d'épicerie sur un magasin Pinia)
-- **JavaScript sans dépendance** : [car-configurator](https://github.com/Arthure-code/car-configurator), [mystery-avatar](https://github.com/Arthure-code/mystery-avatar), [riddle-quest](https://github.com/Arthure-code/riddle-quest), [form-validation](https://github.com/Arthure-code/form-validation)
-- **HTML et CSS accessibles** : [green-harvest-coop](https://github.com/Arthure-code/green-harvest-coop), [accessible-table-nav](https://github.com/Arthure-code/accessible-table-nav), [responsive-recipe-grid](https://github.com/Arthure-code/responsive-recipe-grid)
-- **C# console** : [month-calendar](https://github.com/Arthure-code/month-calendar), [dice-game](https://github.com/Arthure-code/dice-game)
 
 ---
 
