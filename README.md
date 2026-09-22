@@ -7,7 +7,7 @@
   <a href="https://mail.google.com/mail/?view=cm&to=arthure.dev.apps@gmail.com"><img src="https://img.shields.io/badge/Courriel-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Courriel"/></a>
 </p>
 
-Je construis des applications complètes : la base de données, l'API, l'interface, le mobile quand il en faut, et la chaîne qui les livre. Chaque projet ci-dessous se clone, se lance, a ses tests et sa porte de qualité.
+Je construis des applications complètes : la base de données, l'API, l'interface, le mobile quand il en faut, et la chaîne qui les livre. Chaque projet ci-dessous se clone, se lance, a ses tests et sa Quality Gate.
 
 ---
 
@@ -61,7 +61,7 @@ Je construis des applications complètes : la base de données, l'API, l'interfa
 ## 🎯 Ce que je vise
 
 - **La sécurité intégrée dès la conception** : mots de passe hachés, jetons signés, permissions par ressource, limiteur de débit, en-têtes de sécurité, entrées validées.
-- **Un comportement prouvé** : des tests à chaque couche, une porte de qualité qui doit rester verte avant de fusionner.
+- **Un comportement prouvé** : des tests à chaque couche, une Quality Gate qui doit rester verte avant de fusionner.
 - **Des dépôts qu'on peut lire** : un README avec captures, une licence, une demande de tirage par changement.
 
 ---
